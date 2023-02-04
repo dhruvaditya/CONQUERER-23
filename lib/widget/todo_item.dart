@@ -47,13 +47,13 @@ class ToDoItem extends StatelessWidget {
           height: 35,
           width: 35,
           decoration: BoxDecoration(
-            color: tdRed,
+            color: Colors.redAccent,
             borderRadius: BorderRadius.circular(5),
           ),
           child: IconButton(
             color: Colors.white,
             iconSize: 18,
-            icon: Icon(Icons.delete),
+            icon: Icon(Icons.medical_services),
             onPressed: () {
               // print('Clicked on delete icon');
               onDeleteItem(todo.id);
